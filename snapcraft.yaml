@@ -5,6 +5,9 @@ confinement: strict
 grade: stable
 base: core22
 adopt-info: zanshin
+architectures:
+  - build-on: amd64
+  - build-on: arm64
 apps:
     akonadiserver:
         command: usr/bin/akonadiserver
